@@ -122,20 +122,16 @@
                 memberikan pengalaman membaca yang imersif dan tanpa gangguan,
                 sehingga Anda bisa fokus pada cerita dan pengetahuan yang Anda cintai.
             </p>
-            {{-- <div class="mt-8">
-                <img src="https://source.unsplash.com/random/600x400/?library" alt="Perpustakaan"
-                    class="mx-auto rounded-lg shadow-lg" />
-            </div> --}}
         </div>
     </section>
 
     <footer class="bg-gray-800 p-12">
         <div class="items-center mx-2">
-            <a href="#" class="text-2xl tracking-widest text-white">READIFY</a>
+            <a href="#" class="text-xl tracking-widest text-white md:text-2xl">READIFY</a>
         </div>
-        <div class="grid lg:grid-cols-4 sm:grid-cols-2 items-start mt-4">
+        <div class="grid items-start mt-4 md:grid-cols-2 md:gap-y-4 lg:grid-cols-4">
             <!-- //// -->
-            <ul class="flex flex-col tracking-tighter text-gray-200">
+            <ul class="flex flex-col text-gray-200">
                 <li class="px-2 py-1 mb-2 sm:mt-2 sm:mb-1">
                     <h3 class="text-sm text-gray-500">Navigasi</h3>
                 </li>
@@ -144,17 +140,14 @@
                 <li class="px-2 py-1">
                     <a href="#" class="text-base/7">Tentang kami</a>
                 </li>
-                <li class="px-2 py-1">
-                    <a href="#" class="text-sm">Kembali ke atas &ShortUpArrow;</a>
-                </li>
             </ul>
             <!-- //// -->
-            <ul class="flex flex-col tracking-tighter text-gray-200">
+            <ul class="flex flex-col text-gray-200">
                 <li class="px-2 py-1 mb-2 sm:mt-2 sm:mb-1">
                     <h3 class="text-sm text-gray-500">Tentang</h3>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Tentang kami</a>
+                    <a href="#tentang" class="text-base/7">Tentang kami</a>
                 </li>
                 <li class="px-2 py-1">
                     <a href="#" class="text-base/7">Sosial media</a>
@@ -167,33 +160,33 @@
                 </li>
             </ul>
             <!-- //// -->
-            <ul class="flex flex-col tracking-tighter text-gray-200">
+            <ul class="flex flex-col text-gray-200">
                 <li class="px-2 py-1 mb-2 sm:mt-2 sm:mb-1">
                     <h3 class="text-sm text-gray-500">Akun</h3>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Masuk kembali</a>
+                    <a href="{{ route('login') }}" class="text-base/7" title="masuk akun">Masuk akun</a>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Daftar akun</a>
+                    <a href="{{ route('register') }}" class="text-base/7" title="daftar akun">Daftar akun</a>
                 </li>
                 <li class="px-2 py-1">
                     <a href="#" class="text-base/7">Membership</a>
                 </li>
             </ul>
             <!-- //// -->
-            <ul class="flex flex-col tracking-tighter text-gray-200">
+            <ul class="flex flex-col text-gray-200">
                 <li class="px-2 py-1 mb-2 sm:mt-2 sm:mb-1">
                     <h3 class="text-sm text-gray-500">Pengembang</h3>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Muhammad Rizki ( project manager )</a>
+                    <p class="text-base/7">Muhammad Rizki <br> ( project manager )</p>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Eka wirayuda ( front-end )</a>
+                    <p class="text-base/7">Eka wirayuda <br> ( front-end )</p>
                 </li>
                 <li class="px-2 py-1">
-                    <a href="#" class="text-base/7">Muhammad Padlan ( Back-end )</a>
+                    <p class="text-base/7">Muhammad Padlan <br> ( Back-end )</p>
                 </li>
             </ul>
         </div>
